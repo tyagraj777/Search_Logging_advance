@@ -1,10 +1,11 @@
 
 
-How It Works
+=====How It Works======
 CLI Inputs: Accepts three log markers as input parameters.
 Log Directory: Searches the /var/log directory (adjust as needed).
 Search Method: Uses grep -rl to find log files containing each marker.
 Output: Writes results to a timestamped file and prints to the console.
+
 
 Usage
 1. Save the script as search_log_markers.sh.
@@ -14,6 +15,7 @@ $chmod +x search_log_markers.sh
 3. Run with three markers:
 #bash command
 $./search_log_markers.sh "ERROR" "WARNING" "DEBUG"
+
 
 ===================================================
 Search started at: Mon Nov 20 12:45:30 UTC 2024
