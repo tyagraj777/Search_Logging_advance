@@ -1,6 +1,7 @@
 
 
 =====How It Works======
+
 CLI Inputs: Accepts three log markers as input parameters.
 Log Directory: Searches the /var/log directory (adjust as needed).
 Search Method: Uses grep -rl to find log files containing each marker.
